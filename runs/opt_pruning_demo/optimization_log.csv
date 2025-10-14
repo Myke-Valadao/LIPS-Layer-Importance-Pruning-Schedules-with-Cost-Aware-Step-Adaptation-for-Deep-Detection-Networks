@@ -38,4 +38,4 @@ iter,map_50_95,gflops,cost,gate,ckpt
 37,0.338501,6.010661,0.093660,OK,/content/runs/opt_pruning_demo/iter_37/ft/finetune/weights/last_pruned_full.pt
 38,0.338501,6.010661,0.093660,OK,/content/runs/opt_pruning_demo/iter_38/ft/finetune/weights/last_pruned_full.pt
 39,0.338501,6.010661,0.093660,OK,/content/runs/opt_pruning_demo/iter_39/ft/finetune/weights/last_pruned_full.pt
-40,0.340812,6.012454,0.090830,OK,/content/runs/opt_pruning_demo/iter_41/ft/finetune/weights/last_pruned_full.pt
+40,0.340812,6.012454,0.090830,OK,/content/runs/opt_pruning_demo/iter_40/ft/finetune/weights/last_pruned_full.pt
