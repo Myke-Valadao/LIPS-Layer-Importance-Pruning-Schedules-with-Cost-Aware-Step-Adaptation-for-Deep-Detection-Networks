@@ -17,7 +17,7 @@ The following table summarizes the key parameters used throughout the pruning an
 | Category | Parameter | Value / Description |
 |---------|-----------|---------------------|
 | **Base Model** | Architecture | YOLOv11-Nano (Ultralytics) |
-| | Initial Weights | COCO-pretrained backbone |
+| | Initial Weights | COCO-pretrained |
 | **Datasets** | Training / Fine-tuning Set | COCO 2017 train (118k images) |
 | | Validation Set | COCO 2017 val (5k images) |
 | | Evaluation Metrics | mAP@50–95, GFLOPs |
@@ -78,7 +78,7 @@ The first plot shows how the pruning ratios evolve across the 25 iterations, whe
 
 The second plot compares the best pruned YOLOv11n model (iteration 24) against several lightweight YOLO architectures, demonstrating that the pruned model achieves a favorable balance between accuracy and computational cost, positioning itself closer to YOLOv5n in GFLOPs while outperforming it in mAP.
 
-![Benchmark](assets/benchmark)
+![Benchmark](assets/benchmark.png)
 
 ## Using `comparison.py`
 
