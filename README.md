@@ -92,7 +92,7 @@ Make sure you have Python 3.9+ and install the required packages:
 ```bash
 pip install ultralytics opencv-python numpy pyyaml
 
-python compare_yolo11n_video.py \
+python comparison.py \
   --video video.mp4 \
   --model_orig yolov11n.pt \
   --model_pruned runs/iter_24/ft/finetune/weights/last_pruned_full.pt \
