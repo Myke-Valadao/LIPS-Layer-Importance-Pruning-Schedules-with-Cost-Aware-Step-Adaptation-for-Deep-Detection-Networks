@@ -8,7 +8,7 @@ displaying side-by-side inference results with GFLOPs and
 inference time statistics.
 
 Example usage:
-  python compare_yolo11n_video.py \
+  python comparing.py \
     --video /path/to/video.mp4 \
     --model_orig yolov11n.pt \
     --model_pruned yolo11n_pruned.pt \
